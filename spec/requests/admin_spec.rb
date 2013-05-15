@@ -1,6 +1,16 @@
 require 'spec_helper'
 
 describe 'Admin' do
+  context "signup" do
+    it "logs user in and redirects to admin home upon successful singup"
+    it "displays errors on unsuccessful signup"
+  end
+
+  context "login" do
+    it "redirects to admin_root after successful login"
+    it "displays errors on unsuccessful login"
+  end
+
   context "on admin homepage" do
     it "can see a list of recent posts"
     it "can edit a post by clicking the edit link next to a post"
