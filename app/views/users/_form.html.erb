@@ -1,0 +1,13 @@
+<ul>
+  <%= form_for @user do |f| %>
+    <li>
+      <%= f.label :email %>
+      <%= f.email_field :email %>
+    </li>
+    <li>
+      <%= f.label :password %>
+      <%= f.password_field :password %>
+    </li>
+    <li><%= f.submit 'Signup' %></li>
+  <% end %>
+</ul>
