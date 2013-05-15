@@ -11,6 +11,8 @@ The objectives of this challenge are to:
 
 ###RULES
 
-1. You are not allowed to edit existing view files (you ARE allowed to create new ones)
+1. You are not allowed to edit existing view files unless you talk to a senior engineer.
+
+2. You are allowed to create new view files.
 
 2. You are not allowed to modify existing tests, except when removing ```pending``` to complete the implementation
