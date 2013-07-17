@@ -42,7 +42,14 @@ GEM
     childprocess (0.3.9)
       ffi (~> 1.0, >= 1.0.11)
     coderay (1.0.9)
+    columnize (0.3.6)
     database_cleaner (1.0.1)
+    debugger (1.6.0)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.2.0)
+      debugger-ruby_core_source (~> 1.2.1)
+    debugger-linecache (1.2.0)
+    debugger-ruby_core_source (1.2.3)
     diff-lcs (1.2.1)
     erubis (2.7.0)
     factory_girl (4.2.0)
@@ -163,6 +170,7 @@ DEPENDENCIES
   bcrypt-ruby
   capybara
   database_cleaner
+  debugger
   factory_girl_rails
   guard-rspec
   jquery-rails

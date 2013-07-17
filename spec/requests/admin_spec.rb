@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 describe 'Admin' do
+
   context "signup" do
     it "logs user in and redirects to admin home upon successful singup"
     it "displays errors on unsuccessful signup"
@@ -40,7 +41,17 @@ describe 'Admin' do
 
   context "on post show page" do
     it "can visit a post show page by clicking the title"
-    it "can see an edit link that takes you to the edit post path"
-    it "can go to the admin homepage by clicking the Admin welcome page link"
+    it "can see an edit link that takes you to the edit post path" do
+
+    end
+    # it "can go to the admin homepage by clicking the Admin welcome page link" do 
+    #   visit(admin_post_url)
+    #   visit '/'
+    #   # puts "URL: #{admin_post_url}"
+
+    #   click_link("Admin welcome page")
+
+    #   current_path.should == admin_posts_path
+    # end
   end
 end

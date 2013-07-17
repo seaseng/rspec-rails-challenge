@@ -1,1 +1,7 @@
 <h1>New Admin Post</h1>
+<br>
+<%= render partial: "form" %>
+
+Published: <%= @post.is_published? %>
+<h1><%= @post.title %></h1>
+<%= simple_format @post.content %>
