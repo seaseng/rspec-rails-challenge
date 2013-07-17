@@ -13,3 +13,5 @@ describe Admin::PostsController do
     end
   end
 end
+
+
