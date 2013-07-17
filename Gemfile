@@ -15,7 +15,7 @@ gem 'debugger'
 
 gem "rspec-rails", :group => [:test, :development]
 group :test do
-  gem "factory_girl_rails"
+  gem "factory_girl_rails", :require => false
   gem "capybara"
   gem "guard-rspec"
   gem 'launchy'
